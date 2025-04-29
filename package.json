@@ -1,7 +1,7 @@
 {
   "name": "@aimeijay/utils",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@10.6.2",
   "description": "Some useful tools",
   "author": "aimeijay <aimeijay@hotmail.com>",
