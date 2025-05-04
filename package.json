@@ -1,7 +1,7 @@
 {
   "name": "@aimeijay/utils",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.0",
   "packageManager": "pnpm@10.6.2",
   "description": "Some useful tools",
   "author": "aimeijay <aimeijay@hotmail.com>",
@@ -36,7 +36,6 @@
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
   },
-
   "devDependencies": {
     "@antfu/eslint-config": "^4.11.0",
     "@antfu/ni": "^24.3.0",
@@ -46,13 +45,13 @@
     "eslint": "^9.23.0",
     "lint-staged": "^15.5.1",
     "p-limit": "^6.2.0",
+    "simple-git-hooks": "^2.13.0",
     "throttle-debounce": "5.0.0",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
     "unbuild": "^3.5.0",
     "vite": "^6.2.4",
     "vitest": "^3.1.1"
-
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
